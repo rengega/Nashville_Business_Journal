@@ -10722,3 +10722,22 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.crop-16-9 { /*defines the 16/9 ratio for the image*/
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+  width: 100%;
+}
+
+.cropped {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.title {
+  text-decoration: none;
+  color: #000;
+}
