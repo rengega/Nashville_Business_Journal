@@ -18,7 +18,53 @@
     width: 100%;
 }
 
-.title{
+.article-title{
   text-decoration: none;
   color: #000;
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.full-wide{
+  width: 100%;
+}
+
+.serif{
+  font-family:  serif, guardian-text-egyptian, Georgia,"Times New Roman";
+}
+
+.body{
+  font-family: 'Graphik Web','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+@media (min-width: 575px) {
+  .left-border{
+    border-left: 1px solid #ddd;
+    padding-left: 20px;
+  }
+}
+
+@media (min-width: 575px){
+  .minimizable{
+    font-size: small;
+  }
+}
+
+@media (min-width: 575px){
+
+  .article-title-minor{
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+  }
+}
+@media (max-width: 575px){
+
+  .article-title-minor{
+    text-decoration: none;
+    color: #000;
+    font-size: 33px;
+    font-weight: bold;
+  }
 }
