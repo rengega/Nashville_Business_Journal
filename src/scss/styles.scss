@@ -10,10 +10,17 @@
   width: 100%;
 }
 
+.crop-9-16{ /*defines the 9/16 ratio for the image*/
+  height: 0;
+  padding-bottom: 177.77%;
+  position: relative;
+  width: 100%;
+}
+
 .cropped{
     height: 100%;
     left: 0;
-    position: absolute;
+    position:relative;
     top: 0;
     width: 100%;
 }
@@ -37,8 +44,21 @@
   font-family: 'Graphik Web','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
-@media (min-width: 575px) {
+
+.border-left{
+  border-left: 1px solid #ddd;
+  padding-left: 20px;
+}
+
+@media (min-width: 576px) {
   .left-border{
+    border-left: 1px solid #ddd;
+    padding-left: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .left-border-big{
     border-left: 1px solid #ddd;
     padding-left: 20px;
   }
