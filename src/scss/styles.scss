@@ -1,7 +1,13 @@
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
 
+$primary: #1e4794;
+$champagne: #f8f5ef;
 
+.btn {
+  color: $primary;
+  border-color: $primary;
+}
 
 .crop-16-9{ /*defines the 16/9 ratio for the image*/
   height: 0;
@@ -47,7 +53,7 @@
 
 .border-left{
   border-left: 1px solid #ddd;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 @media (min-width: 576px) {
@@ -87,4 +93,26 @@
     font-size: 33px;
     font-weight: bold;
   }
+}
+
+.river-heading{
+  text-decoration: none;
+  color: #000;
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.scrollable{
+  overfloy-x: auto;
+  white-space: nowrap;
+}
+
+.river-submenu{
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+
+.champagne{
+  background-color: $champagne;
 }

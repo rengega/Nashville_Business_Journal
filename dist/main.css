@@ -10722,6 +10722,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.btn {
+  color: #1e4794;
+  border-color: #1e4794;
+}
+
 .crop-16-9 { /*defines the 16/9 ratio for the image*/
   height: 0;
   padding-bottom: 56.25%;
@@ -10765,7 +10770,7 @@ textarea.form-control-lg {
 
 .border-left {
   border-left: 1px solid #ddd;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 @media (min-width: 576px) {
@@ -10800,4 +10805,25 @@ textarea.form-control-lg {
     font-size: 33px;
     font-weight: bold;
   }
+}
+.river-heading {
+  text-decoration: none;
+  color: #000;
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.scrollable {
+  overfloy-x: auto;
+  white-space: nowrap;
+}
+
+.river-submenu {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.champagne {
+  background-color: #f8f5ef;
 }
