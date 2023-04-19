@@ -52,6 +52,7 @@ module.exports = {
                             }
                         }
                     },
+
                     {
                         // Loads a SASS/SCSS file and compiles it to CSS
                         loader: 'sass-loader'
@@ -63,14 +64,14 @@ module.exports = {
             {
                 test: /\.(png|jpe?g|gif)$/i,
                 type: 'asset/resource'
-            }
+            },
 
-/*
+
             {
                 test: /\.html$/,
                 use: ['html-loader']
             },
-
+/*
             {
                 test: /\.(png|jpe?g|gif)$/i,
 
