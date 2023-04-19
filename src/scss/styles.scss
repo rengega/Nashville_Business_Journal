@@ -3,6 +3,7 @@
 
 $primary: #1e4794;
 $champagne: #f8f5ef;
+$champagneDark:#D2C5A5;
 
 .btn {
   color: $primary;
@@ -115,4 +116,7 @@ $champagne: #f8f5ef;
 
 .champagne{
   background-color: $champagne;
+}
+.champagneDark{
+  background-color: $champagneDark;
 }
