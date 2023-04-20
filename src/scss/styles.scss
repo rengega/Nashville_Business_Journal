@@ -3,7 +3,9 @@
 
 $primary: #1e4794;
 $champagne: #f8f5ef;
-$champagneDark:#D2C5A5;
+$champagneDark: #edeae4;
+$champagneDarkText: #555;
+
 
 .btn {
   color: $primary;
@@ -119,4 +121,33 @@ $champagneDark:#D2C5A5;
 }
 .champagneDark{
   background-color: $champagneDark;
+}
+
+#back-to-top{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: $champagneDarkText;
+  font-size: 1.2rem;
+}
+
+.header-unordered-list-href{
+  list-style-type: none;
+  padding-right: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.footer-list-item{
+  text-decoration: none;
+  color: $primary;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.href-footer-end{
+  color: $primary;
+
 }

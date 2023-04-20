@@ -10829,5 +10829,33 @@ textarea.form-control-lg {
 }
 
 .champagneDark {
-  background-color: #D2C5A5;
+  background-color: #edeae4;
+}
+
+#back-to-top {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #555;
+  font-size: 1.2rem;
+}
+
+.header-unordered-list-href {
+  list-style-type: none;
+  padding-right: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.footer-list-item {
+  text-decoration: none;
+  color: #1e4794;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.href-footer-end {
+  color: #1e4794;
 }

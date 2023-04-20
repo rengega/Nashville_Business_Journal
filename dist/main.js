@@ -636,7 +636,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/styles.scss */ \"./src/scss/styles.scss\");\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.esm.js\");\n// Import our custom CSS\n\n\n// Import all of Bootstrap's JS\n\n\nconsole.log(\"hi\")\n\n//# sourceURL=webpack://nashvillebusinessnews/./src/js/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/styles.scss */ \"./src/scss/styles.scss\");\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.esm.js\");\n// Import our custom CSS\n\n\n// Import all of Bootstrap's JS\n\nconsole.log(\"js working\") ;\n\n\nlet backToTop = document.getElementById('back-to-top');\nbackToTop.addEventListener('click', () => {\n    topFunction();\n});\nfunction topFunction() {\n    document.body.scrollTop = 0; // For Safari\n    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera\n}\n\n\n//# sourceURL=webpack://nashvillebusinessnews/./src/js/main.js?");
 
 /***/ })
 
