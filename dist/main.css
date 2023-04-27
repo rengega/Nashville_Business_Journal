@@ -10723,8 +10723,8 @@ textarea.form-control-lg {
   }
 }
 .btn {
-  color: #1e4794;
-  border-color: #1e4794;
+  color: #1d387f;
+  border-color: #1d387f;
 }
 
 .crop-16-9 { /*defines the 16/9 ratio for the image*/
@@ -10851,11 +10851,247 @@ textarea.form-control-lg {
 
 .footer-list-item {
   text-decoration: none;
-  color: #1e4794;
+  color: #1d387f;
   font-size: 20px;
   padding-top: 20px;
 }
 
 .href-footer-end {
-  color: #1e4794;
+  color: #1d387f;
+}
+
+#top-nav {
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #ddd;
+}
+
+.divider {
+  margin-left: 15px;
+  padding-right: 15px;
+  border-left: 1px solid #222;
+}
+
+.cityDropdown {
+  position: absolute;
+  top: 35px;
+  left: 0px;
+  transform: translateY(0.5rem);
+  visibility: hidden;
+  opacity: 0;
+  column-count: 1;
+}
+
+.show {
+  transform: translateY(0rem);
+  visibility: visible;
+  opacity: 1;
+}
+
+@media (min-width: 480px) {
+  #sign-in-logo {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  #sign-in-text {
+    display: none;
+  }
+}
+@media (min-width: 480px) {
+  .cityDropdown {
+    line-height: 2.4;
+    column-count: 3;
+    overflow-y: scroll;
+  }
+}
+@media (min-width: 1024px) {
+  .cityDropdown {
+    line-height: 2.4;
+    column-count: 4;
+    overflow-y: scroll;
+  }
+}
+@media (min-width: 480px) {
+  .wide-small-auto {
+    width: auto;
+  }
+  .wide-small-100 {
+    width: 100%;
+  }
+}
+#branding-holder {
+  padding: 2px 8px 0;
+  background: repeating-linear-gradient(-45deg, #1d387f, #1d387f 7px, rgb(50, 70, 141) 1px, rgb(50, 70, 141) 8px);
+}
+
+#branding-svg {
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 36px;
+}
+
+.promo-title {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-underline: none;
+  font-size: 0.8rem;
+}
+
+.market-links-dropdown-trigger {
+  background-color: white;
+  color: black;
+  width: 50px;
+  height: 50px;
+}
+
+.market-links-dropdown-trigger::before {
+  content: "\f62a";
+  font-family: bootstrap-icons;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.collapsed::before {
+  content: "\f479";
+  font-family: bootstrap-icons;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.market-search::before {
+  content: "\f62a";
+  font-family: bootstrap-icons;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.market-search-collapsed::before {
+  content: "\f52a";
+  font-family: bootstrap-icons;
+  font-size: 1.5rem;
+  color: black;
+}
+
+@media (min-width: 1200px) {
+  market-links-desktop {
+    display: flex;
+    max-width: 100%;
+  }
+}
+#market-offer-button {
+  background-color: #1d387f;
+  color: white;
+  border-radius: 2px;
+  padding: 5px;
+  font-size: 0.8rem;
+  padding: 4px 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+@media (min-width: 480px) {
+  .wide-small-auto {
+    width: auto;
+  }
+}
+#promo {
+  max-width: fit-content;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+#suboffer {
+  flex: 1 1 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.desktop-menu-item {
+  text-decoration: none;
+  color: black;
+  font-size: 0.7rem;
+  padding: 2px 8px;
+}
+
+#link-bar {
+  position: relative;
+}
+
+@media (min-width: 1200px) {
+  .wide-xl-100 {
+    wide: 100%;
+  }
+}
+.market-links-dropdown {
+  position: absolute;
+  top: 111px;
+  transform: translateY(0.5rem);
+  visibility: hidden;
+  opacity: 0;
+  display: none;
+  width: 100vw;
+  height: fit-content;
+  background-color: #f1f1f1;
+}
+
+@media (max-width: 760px) {
+  .market-links-dropdown {
+    height: 200vh;
+  }
+}
+@media (max-width: 1200px) {
+  .market-links-dropdown {
+    top: 51px;
+  }
+}
+@media (max-width: 575px) {
+  .market-links-dropdown {
+    top: 86px;
+  }
+}
+.showMarketLinksDropdown {
+  transform: translateY(0rem);
+  visibility: visible;
+  opacity: 1;
+  z-index: 1000;
+  display: block;
+}
+
+.collapsible {
+  background-color: #f1f1f1;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #ddd;
+}
+
+.contentActive {
+  max-height: 1000px;
+  transition: max-height 0.2s ease-in;
+}
+
+.market-link-href {
+  text-decoration: none;
+  color: black;
+  font-size: 0.7rem;
+  padding: 2px 8px;
 }
