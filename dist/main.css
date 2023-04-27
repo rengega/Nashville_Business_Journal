@@ -11003,7 +11003,7 @@ textarea.form-control-lg {
   border-bottom: 1px solid #ddd;
 }
 
-#suboffer {
+.suboffer {
   flex: 1 1 0 auto;
   display: flex;
   justify-content: flex-end;
@@ -11011,6 +11011,14 @@ textarea.form-control-lg {
   border-bottom: 1px solid #ddd;
 }
 
+@media (max-width: 593px) {
+  .suboffer {
+    width: 100vw;
+    justify-content: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+  }
+}
 .desktop-menu-item {
   text-decoration: none;
   color: black;
