@@ -11018,6 +11018,46 @@ textarea.form-control-lg {
   padding: 2px 8px;
 }
 
+.search-dropdown {
+  position: absolute;
+  top: 111px;
+  transform: translateY(0.5rem);
+  visibility: hidden;
+  opacity: 0;
+  display: none;
+  width: 100vw;
+  height: 100px;
+  background-color: #08173b;
+}
+
+.showSearchDropdown {
+  transform: translateY(0rem);
+  visibility: visible;
+  opacity: 1;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1200px) {
+  .search-dropdown {
+    top: 51px;
+  }
+}
+@media (max-width: 575px) {
+  .search-dropdown {
+    top: 86px;
+  }
+}
+#input-form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f1f1f1;
+}
+
 #link-bar {
   position: relative;
 }

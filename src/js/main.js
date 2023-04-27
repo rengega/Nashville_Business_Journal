@@ -31,8 +31,13 @@ cityDropButton.addEventListener("click", function (e) {
 });
 
 
-const linkDropDownTrigger = document.getElementById("market-links-dropdown-trigger");
 
+
+const linkDropDownTrigger = document.getElementById("market-links-dropdown-trigger");
+const dropDownMenuMarketLinks = document.getElementById("market-links-dropdown-menu");
+const toggleDropDownMarketLinks = function (){
+    dropDownMenuMarketLinks.classList.toggle("showMarketLinksDropdown");
+}
 linkDropDownTrigger.addEventListener("click", (e) =>{
     linkDropDownTrigger.classList.toggle("collapsed");
     e.stopPropagation();
@@ -40,18 +45,21 @@ linkDropDownTrigger.addEventListener("click", (e) =>{
 })
 
 const searchTrigger = document.getElementById("search-trigger");
+const dropDownSearch = document.getElementById("search-dropdown-menu");
+const toggleDropDownSearch = function (){
+    dropDownSearch.classList.toggle("showSearchDropdown");
+}
 
 searchTrigger.addEventListener("click", (e) =>{
     searchTrigger.classList.toggle("market-search-collapsed");
+    e.stopPropagation();
+    toggleDropDownSearch();
 })
 
 
-const dropDownMenuMarketLinks = document.getElementById("market-links-dropdown-menu");
 
 
-const toggleDropDownMarketLinks = function (){
-    dropDownMenuMarketLinks.classList.toggle("showMarketLinksDropdown");
-}
+const droDownSearch = document.getElementById("search-dropdown");
 
 
 var coll = document.getElementsByClassName("collapsible");
